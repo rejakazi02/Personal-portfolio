@@ -31,7 +31,7 @@ export default {
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
-				Hi, I am <br> Reaj Morshed reja
+				Hi, I am <br> Reaj Morshed 
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
@@ -57,12 +57,12 @@ export default {
 			</div>
 		</div>
 
-		<!-- Banner right illustration -->
-		<div class="w-full md:w-1/2 content-center">
+		<!-- Banner right contents -->
+		<div class="w-full md:w-1/2 text-right float-right">
 			<img
 				v-if="theme === 'light'"
 				src="@/assets/images/1.png"
-				alt="Developer" 
+				alt="Developer"
 			/>
 			
 		</div>
