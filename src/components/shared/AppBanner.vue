@@ -62,7 +62,7 @@ export default {
 			<img
 				v-if="theme === 'light'"
 				src="@/assets/images/1.png"
-				alt="Developer"
+				alt="Developer" 
 			/>
 			
 		</div>
