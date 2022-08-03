@@ -31,17 +31,17 @@ export default {
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
-				Hi, Iam Stoman
+				Hi, I am <br> Reaj Morshed reja
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				A Full-Stack Developer & Design Enthusiast
+				A Front-End Developer.
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="Stoman-Resume.pdf"
-					href="/files/Stoman-Resume.pdf"
+					download="Reja_resume.pdf"
+					href="../../../public/files/Reja_resume.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 				>
@@ -58,17 +58,13 @@ export default {
 		</div>
 
 		<!-- Banner right illustration -->
-		<div class="w-full md:w-2/3 text-right float-right">
+		<div class="w-full md:w-1/2 content-center">
 			<img
 				v-if="theme === 'light'"
 				src="@/assets/images/1.png"
 				alt="Developer"
 			/>
-			<img
-				v-else
-				src="@/assets/images/developer-dark.svg"
-				alt="Developer"
-			/>
+			
 		</div>
 	</section>
 </template>

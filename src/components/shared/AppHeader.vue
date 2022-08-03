@@ -87,16 +87,11 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
+							src="@/assets/images/logo/logo.png"
 							class="w-36"
 							alt="Dark Logo"
 						/>
-						<img
-							v-else
-							src="@/assets/images/logo-light.svg"
-							class="w-36"
-							alt="Light Logo"
-						/>
+						
 					</router-link>
 				</div>
 
@@ -153,12 +148,7 @@ export default {
 					/>
 				</div>
 
-				<!-- Theme switcher large screen -->
-				<theme-switcher
-					:theme="theme"
-					@themeChanged="updateTheme"
-					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
-				/>
+				
 			</div>
 		</div>
 
