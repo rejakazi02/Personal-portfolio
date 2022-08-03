@@ -4,7 +4,7 @@ export default {
 		return {
 			copyrightDate: new Date().getFullYear(),
 			projectName: 'Vue.js & Tailwind CSS Portfolio',
-			author: 'Stoman',
+			author: 'reja',
 		};
 	},
 };
@@ -15,7 +15,7 @@ export default {
 		<div
 			class="font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
 		>
-			&copy; {{ copyrightDate }}.
+			Copy Right &copy;  {{ copyrightDate }}.
 			<a
 				href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
 				target="__blank"

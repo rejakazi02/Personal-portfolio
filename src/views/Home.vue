@@ -2,6 +2,7 @@
 import AppBanner from '@/components/shared/AppBanner';
 import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
 import Button from '../components/reusable/Button.vue';
+import Skils from '../components/skils/skils.vue';
 
 export default {
 	name: 'Home',
@@ -9,6 +10,7 @@ export default {
 		AppBanner,
 		ProjectsGrid,
 		Button,
+		Skils,
 	},
 };
 </script>
@@ -32,6 +34,12 @@ export default {
 			</router-link>
 		</div>
 	</div>
+
+
+	<Skils />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+
+</style>
