@@ -59,9 +59,9 @@ export default {
 
 		<!-- Banner right contents -->
 		<div class="w-full md:w-1/2 text-right float-right">
-			<img
+			<img 
 				v-if="theme === 'light'"
-				src="@/assets/images/1.png"
+				src="../../assets/images/3.png"
 				alt="Developer"
 			/>
 			
@@ -69,4 +69,5 @@ export default {
 	</section>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
