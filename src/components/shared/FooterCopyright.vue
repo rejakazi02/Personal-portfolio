@@ -3,7 +3,7 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Vue.js & Tailwind CSS Portfolio',
+			projectName: '',
 			author: 'reja',
 		};
 	},
@@ -15,7 +15,7 @@ export default {
 		<div
 			class="font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
 		>
-			Copy Right &copy;  {{ copyrightDate }}.
+			Copy Right &copy;  {{ copyrightDate }}
 			<a
 				href=""
 				target="__blank"

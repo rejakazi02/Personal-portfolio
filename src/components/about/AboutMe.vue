@@ -78,7 +78,7 @@ export default {
             <p>Bangladeshi</p>
             <p>Islam</p>
             <p>Village: Dumuriya, Post: Pinjuri, Kotalipara, Kotalipara, Gopalganj</p> 
-            <p> House No:2/1, Road No:4, Block No:F, Mirpur, Dhaka</p>
+            <p> House No:2/1, Road No:4, Block No:F, Mirpur-2, Dhaka-1216</p>
           </div>
         </div>
       </div>
