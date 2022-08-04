@@ -28,7 +28,7 @@ export default {
     >
       <div v-for="item in skils" :key="item.id" class="flex items-center justify-center flex-col">
         <img :src="item.img" alt="" />
-        <h1>{{ item.title }}</h1>
+        <h1 class="mt-4">{{ item.title }}</h1>
       </div>
     </div>
   </section>
