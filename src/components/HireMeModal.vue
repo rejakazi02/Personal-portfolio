@@ -39,12 +39,12 @@ export default {
 							class="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative"
 						>
 							<div
-								class="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark"
+								class="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark w-full"
 							>
 								<h5
 									class=" text-primary-dark dark:text-primary-light text-xl"
 								>
-									What project are you looking for?
+									Hire me for your project.
 								</h5>
 								<button
 									class="px-4 text-primary-dark dark:text-primary-light"
