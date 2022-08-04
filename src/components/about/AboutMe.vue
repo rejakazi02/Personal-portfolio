@@ -6,12 +6,7 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-				},
-				{
-					id: 2,
-					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'A motivated, passionate, responsible, strategic and enterprising young professional whose aim is to establish himself as a well renowned creative person through developing his knowledge by working in a well reputed organization, gather experiences of working in a team and gain the capability of leading team which will increase his confident and working skills and betterment for his future.',
 				},
 			],
 		};
@@ -20,25 +15,21 @@ export default {
 </script>
 
 <template>
-	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-		<!-- About profile image -->
-		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
-			<img
-				src="@/assets/images/profile.jpeg"
-				class="rounded-xl w-96"
-				alt=""
-			/>
-		</div>
+  <div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
+    <!-- About profile image -->
+    <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
+      <img src="../../assets/images/1.png" class="rounded-xl w-96" alt="" />
+    </div>
 
-		<!-- About details -->
-		<div class="w-full sm:w-3/4 text-left">
-			<p
-				v-for="bio in bios"
-				:key="bio.id"
-				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
-			>
-				{{ bio.bio }}
-			</p>
-		</div>
-	</div>
+    <!-- About details -->
+    <div class="w-full sm:w-3/4 text-left flex items-center">
+      <p
+        v-for="bio in bios"
+        :key="bio.id"
+        class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg text-justify"
+      >
+        {{ bio.bio }}
+      </p>
+    </div>
+  </div>
 </template>
