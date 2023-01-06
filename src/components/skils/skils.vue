@@ -18,7 +18,7 @@ export default {
       <p
         class="font-general-semibold text-2xl sm:text-5xl font-semibold mb-2 text-ternary-dark dark:text-ternary-light"
       >
-        Skils
+        Skills
       </p>
     </div>
 
